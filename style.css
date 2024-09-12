@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arials, sans-serif;
+    background-image: url(//images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/12fd49fbd5e85557b07eb896/pexels-photo-7417656.jpeg?version=);
+    background-size: cover;
+    background-position: center;
+    
+
+.main-container{
+    font-family: Arials, sans-serif;
+    line-height: 1.6;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    margin-top: 100px;
+    opacity: 80%;
+}
+}
+
+.main-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #333;
+    display: flex;
+    padding: 20px;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.about-container  {
+display: flex;
+height: 50%;
+gap: 50px;
+align-items: center;
+}
+
+.main-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    justify-content:center;
+    
+    
+}
+
+.container :right{
+    font: size 16px; 
+    font-family: 'Open', sans-serif ;
+    display: block;
+
+}
+
+
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+        font-size: 4.5rem;
+    }
+    
+.about-container  {
+    flex-direction: column;
+    height: 50%;
+    
+    }
+}
+
+
